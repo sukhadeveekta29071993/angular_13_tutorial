@@ -1,0 +1,16 @@
+.header {
+    height: 240px;
+    padding: 20px 40px;
+    display: flex;
+    background-color: #fff;
+}
+
+.slogan {
+    width: 240px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 45px;
+}

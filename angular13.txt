@@ -136,3 +136,17 @@ part 5: how angular application executed?
         Step 7: Routing
         Step 8: Services
         Step 9: HTTP API
+
+part 6: 
+    1. what is component?
+        --> component is a typescript class decorated with @Component decorator and it contains methods and properties which can use in HTML.
+        --> the main and root component is app component.
+        --> A CLASS - it contains the code required for the view template. that means it contains the ui logic.
+        --> A VIEW TEMPLATE - it defines the user interface . it contains the html, directives and data binding. 
+        --> A DECORATOR - it adds meta data to the class, making it a component.
+
+    2. creating custom component
+        -->  using commend ng g component component-name
+
+    3. template property and style property of component in angular
+        --> for used of template property only the code is not more than 3 line
