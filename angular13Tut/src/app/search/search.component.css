@@ -1,0 +1,11 @@
+.search-div {
+    margin: 10px 20px;
+    padding: 20px 30px;
+}
+
+input[type=text] {
+    width: 240px;
+    height: 30px;
+    border: none;
+    margin-left: 20px;
+}

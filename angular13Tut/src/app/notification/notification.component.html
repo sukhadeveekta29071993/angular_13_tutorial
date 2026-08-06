@@ -1,3 +1,7 @@
-<div class="alert alert-success">
-    <p>This website uses cookies for better user experience</p>
+<div class="alert alert-success" [hidden]="isDisplay">
+    This website uses cookies for better user experience
+
+    <div class="close">
+        <button class="btn" (click)="closeNotification()">X</button>
+    </div>
 </div>

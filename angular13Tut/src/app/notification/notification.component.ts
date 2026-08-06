@@ -12,14 +12,25 @@ import { Component, OnInit } from '@angular/core';
     p{
     font-size:20px;
     }
+    .close{
+    float:right;
+    margin-top:-15px;
+    }
+   
     `
   ]
 })
 export class NotificationComponent implements OnInit {
-
+  isDisplay: boolean = false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  closeNotification(){
+    console.log("event called");
+    
+    this.isDisplay = true;
   }
 
 }

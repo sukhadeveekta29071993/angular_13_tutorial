@@ -5,17 +5,18 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div class= "header">
       <div class= "image">
-        <img src="" alt="" width="320" height="240">
+        <img src="" [alt]="altText" width="320" height="240">
       </div>
       <div class="slogan">
-        <h2>Your  one stop shop everything!</h2>
+        <h2>{{ slogan }}</h2>
       </div>
     </div>
   `,
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
+  slogan : string = 'Your  one stop shop everything!'; //from string interpolation
+  altText : string = "this is a header image"; //from  property binding
   constructor() { }
 
   ngOnInit(): void {

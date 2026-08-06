@@ -158,3 +158,22 @@ part 8: different type of selector in angular?
     1. using html tag (" <></>" )
     2. using html attribute ( " [] " )
     3. using css class ( " . " )
+
+part 9: data binding in angular?
+    --> data binding in angular allows us to communication between a component class and its corresponding view template
+
+    9.1 one way data binding?
+        --> in one way data binding is, when we can access a component class property in its corresponding view template.
+        --> one way data binding is also , when we can access a value from view template in corresponding class property.
+
+            a. string interpolation:
+                --> string interpolation in angular is used to bind data from component class to view template. that means data flows from component to view.
+
+            b. property binding:
+                --> property binding is used to bind the property af an html element to the property or method of a component class.
+
+            c. event binding:
+                --> event binding allows us to bind webpage events to a components property or method. using event binding we can pass data from view to component.
+
+    9.2 two way data binding?
+        --> two way data binding, binds data from component class to view template and view template to component class. this is a combination of property and event binding.
