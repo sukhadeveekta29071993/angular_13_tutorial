@@ -114,3 +114,25 @@ part 4: Files and folder structure.
         
         2.20 tsconfig.spec.json
             --> tsconfig.spec.json contains TypeScript configuration used for testing and specification files.
+
+part 4: 
+    1. what is typescript? 
+        --> typescript is a free and open source programming language developed by microsoft it is a superset of javascript.
+        --> typescript has additional features that do not exist in current version of javascript supported by most browser.
+        --> typescript is strongly typed but javascript is dynamically typed.
+
+    2. why use typescript?
+        --> it has object oriented features which we do not have in javascript like interface, access modifiers, fields. properties, generics etc.
+        --> with typescript we can catch error at compile time.
+
+part 5: how angular application executed?
+     Angular 13 Application Flow
+        Step 1: index.html
+        Step 2: main.ts
+        Step 3: app.module.ts
+        Step 4: app.component.ts
+        Step 5: app.component.html
+        Step 6: Components
+        Step 7: Routing
+        Step 8: Services
+        Step 9: HTTP API
