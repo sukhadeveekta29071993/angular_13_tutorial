@@ -22,3 +22,11 @@ part 1: Introduction to angular 13
         2. angular 2 --> angular 2 is based on typescript 
 
         --> now the current version is angular 13.
+
+part 2: project setup and angular cli.
+     a. install node js 
+     b. install angular cli
+     c. create project
+     d. start project with ng serve or npm start
+
+part 3: working with angular project
