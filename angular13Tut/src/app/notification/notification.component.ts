@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
     margin:10px 0px;
     padding: 10px 20px;
     text-align:center;
-    background-color:#FAD7A0;
     }
     p{
     font-size:20px;
