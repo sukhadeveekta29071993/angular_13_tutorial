@@ -1,0 +1,24 @@
+part 1: Introduction to angular 13
+    1. what is angular ?
+        --> angular is used for building client side application using html css and programming language like javascript and typescript.
+        --> angular is not a programming language in itself like javascript , instead it is a framework which uses a programming language javascript/typescript.
+        --> angular is a javascript framework which allows us to create single page application. single page application means everything will be render in single page.
+        --> advantages of SPA:
+            a. SPA makes the website faster and gives user reactive experience.
+            b. using javascript to change the content of a webpage in dynamically is much faster than having the reach out to the server for every page change and for every new piece of data we want to display.
+            c. If we do need some data from the server. we can load it in the background without making the webpage unresponsive.
+    
+    2. why we use angular?
+        --> we can use javascript or jQuery to do the same thing which we can do with angular. But as the application grows:
+            a. Vanilla or jQuery code becomes hard to maintain and we will need a way to properly structure our application.
+            b. A lot of application built using vanilla javascript/jQuery is hard to test.
+
+        --> angular gives our application a clean and loosely coupled  structure that is easy to understand and maintain.
+        --> it brings a lot of utility code which can be re-used in lot of application, especially, when dealing with user navigation and browser history.
+        --> application built with angular are more testable.
+
+    3. angular versions
+        1. angular js --> angular team first release angular js which is based on totally javascript and more complex to overcome this problem angular 2 is come in market
+        2. angular 2 --> angular 2 is based on typescript 
+
+        --> now the current version is angular 13.
