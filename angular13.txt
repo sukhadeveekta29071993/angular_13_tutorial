@@ -150,3 +150,11 @@ part 6:
 
     3. template property and style property of component in angular
         --> for used of template property only the code is not more than 3 line
+
+
+part 7: using bootstraps in our application
+
+part 8: different type of selector in angular?
+    1. using html tag (" <></>" )
+    2. using html attribute ( " [] " )
+    3. using css class ( " . " )
