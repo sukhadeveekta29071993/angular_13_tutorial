@@ -30,3 +30,87 @@ part 2: project setup and angular cli.
      d. start project with ng serve or npm start
 
 part 3: working with angular project
+
+
+
+part 4: Files and folder structure.
+    1. node_modules 
+        --> node_modules contains all the npm packages and dependencies required by the Angular application. It is automatically created when we run npm install.
+    
+    2. src 
+        --> The src folder contains the main source code and resources of the Angular application.
+
+        2.1 app
+            --> The app folder contains the main Angular application logic, including components, modules, services, routing, directives and pipes.
+
+            2.1.1 app/app.component.ts
+                --> app.component.ts contains the TypeScript logic of the root component. It defines the component using the @Component decorator.
+            2.1.2 app/app.component.html
+                --> app.component.html contains the HTML template or user interface of the root component.
+            2.1.3 app/app.component.css
+                --> app.component.css contains the CSS styles for the AppComponent.
+            2.1.4 app/app.component.spec.ts
+                --> app.component.spec.ts contains unit tests for the AppComponent.
+            2.1.5 app/app.module.ts
+                --> app.module.ts is the root Angular module in an Angular 13 application. It uses the @NgModule decorator.
+                --> app.module.ts is the root module of an Angular 13 application. It manages the application's components, modules, services and the root component that should be bootstrapped.
+
+        2.2 assets
+            --> The assets folder contains static resources such as images, icons, fonts and JSON files used by the application.
+
+        2.3 environments/
+            --> The environments folder contains environment-specific configuration such as development and production API URLs.
+            2.3.1  environment.ts
+                --> environment.ts contains configuration values used during development.
+            2.3.2 environment.prod.ts
+                --> environment.prod.ts contains configuration values used when the application is built for production.
+        
+        2.4 favicon.ico
+            --> favicon.ico is the small icon displayed in the browser tab.
+
+        2.5 index.html
+            --> index.html is the main HTML page of the Angular application and contains the root component selector where Angular renders the application.
+
+        2.6 main.ts 
+            --> main.ts is the entry point of the Angular application. It bootstraps the root AppModule.
+
+        2.7 polyfills.ts
+            --> polyfills.ts provides browser compatibility support for features that may not be available in some browsers.
+
+        2.8 styles.css
+            --> styles.css contains the global CSS styles for the application.
+
+        2.9 tests.ts
+
+        2.10 .browserslistrc
+            --> .browserslistrc specifies which browsers the Angular application should support. It helps build tools determine browser compatibility.
+
+        2.11 .editorconfig
+            --> .editorconfig helps maintain consistent coding and formatting rules across different editors and IDEs.
+
+        2.12 .gitignore
+            --> .gitignore tells Git which files and folders should not be tracked or committed.
+
+        2.13 angular.json
+            --> angular.json contains the configuration settings used by Angular CLI for building, serving and testing the application.
+
+        2.14 karma.conf.js 
+            --> karma.conf.js contains configuration for the Karma test runner used to execute unit tests.
+
+        2.15 package.json
+            --> package.json contains project metadata, npm scripts, dependencies and development dependencies required by the Angular project.
+
+        2.16 package-lock.json
+            --> package-lock.json records the exact dependency versions and dependency tree installed in the project.
+
+        2.17 README.md
+            --> README.md contains documentation and instructions about the project.
+
+        2.18 tsconfig.app.json
+            --> tsconfig.app.json contains TypeScript compiler configuration specific to the Angular application.
+
+        2.19 tsconfig.json
+            --> tsconfig.json contains the main TypeScript compiler configuration for the project.
+        
+        2.20 tsconfig.spec.json
+            --> tsconfig.spec.json contains TypeScript configuration used for testing and specification files.
