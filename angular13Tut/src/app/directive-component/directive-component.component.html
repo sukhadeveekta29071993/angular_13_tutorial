@@ -1,0 +1,90 @@
+<div class="container mt-2 mb-2">
+    <h1>Directives:</h1>
+    <p> structural directives: ngFor</p>
+    <div *ngFor="let p of products">
+        <div class="product-container">
+            <div class="image-container">
+                <img [src]="p.images" alt="" style="max-width: 50px; max-height: 50px;">
+            </div>
+            <div>
+                <div class="name-container">
+                    <h6>{{ p.name }}</h6>
+                </div>
+                <div class="productDetails">
+                    <div class="details">{{ p.available }}</div>
+                    <div class="details"><b>Price:</b>{{ p.price }}</div>
+                    <div class="details"><b>color:</b>{{ p.color }}</div>
+                </div>
+            </div>
+
+            <div class="actionContainer">
+                <button class="btn btn-success">Show Details</button>
+                <button class="btn btn-warning">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p> Attribute directives: ngStyle</p>
+
+    <div *ngFor="let product of products">
+        <div class="product-container">
+            <div class="image-container">
+                <img [src]="product.images" alt="" style="max-width: 50px; max-height: 50px;">
+            </div>
+            <div>
+                <div class="name-container">
+                    <h6>{{ product.name }}</h6>
+                </div>
+                <div class="productDetails">
+                    <div class="details" [ngStyle]="{color: product.available === 'Available' ? 'green' : 'red' }">{{
+                        product.available }}</div>
+                    <div class="details"><b>Price:</b>{{ product.price }}</div>
+                    <div class="details"><b>color:</b>{{ product.color }}</div>
+                </div>
+            </div>
+
+            <div class="actionContainer">
+                <button class="btn btn-success">Show Details</button>
+                <button class="btn btn-warning">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p> structural directives: ngIf</p>
+
+    <div *ngFor="let prod of products">
+        <div class="product-container">
+            <div class="image-container">
+                <img [src]="prod.images" alt="" style="max-width: 50px; max-height: 50px;">
+            </div>
+            <div>
+                <div class="name-container">
+                    <h6>{{ prod.name }}</h6>
+                </div>
+                <div class="productDetails">
+                    <div class="details">{{prod.available }}</div>
+                    <div class="details"><b>Price:</b>{{ prod.price }}</div>
+                    <div class="details"><b>color:</b>{{ prod.color }}</div>
+                </div>
+            </div>
+
+            <div class="actionContainer">
+                <button class="btn btn-success">Show Details</button>
+                <button class="btn btn-warning" *ngIf="prod.available === 'Available'; else notifyMe">Buy Now</button>
+                <ng-template #notifyMe>
+                    <button class="btn btn-info">Notify</button>
+                </ng-template>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <p> Attribute directives: ngClass</p>
+    <div class="alert alert-success" [ngClass]="{fadeOut: displayNotification}">
+        This website uses cookies for better user experience
+
+        <div class="float-right">
+            <button class="btn" (click)="closeNotification()">X</button>
+        </div>
+    </div>
+</div>

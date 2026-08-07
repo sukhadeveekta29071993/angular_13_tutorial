@@ -185,5 +185,11 @@ part 10: what are directives?
 
             a. ngFor directive - this directive used to repeat a portion of html template once per each item from an iterable list.
 
+            b. ngIf directive -  this directive used to repeat a portion of html template once per each item from an iterable list.
+
         10.2 attribute directives:
             --> a attribute directive can change the look and behavior  of DOM element for ex: ngStyle, ngClass
+
+            a. ngStyle directive - this directive change the look and behavior of dom element
+
+            b. ngClass directive - this directive change the look and behavior of dom element and it add class dynamically to the webpage element

@@ -9,11 +9,12 @@ import { NotificationComponent } from './notification/notification.component';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { BindingComponent } from './binding/binding.component';
+import { DirectiveComponentComponent } from './directive-component/directive-component.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
-    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent
+    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent
   ],
   imports: [
     BrowserModule,
