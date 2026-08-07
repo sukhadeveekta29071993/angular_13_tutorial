@@ -21,16 +21,12 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class NotificationComponent implements OnInit {
-  isDisplay: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  closeNotification(){
-    console.log("event called");
-    
-    this.isDisplay = true;
-  }
+ 
 
 }

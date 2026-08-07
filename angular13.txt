@@ -177,3 +177,13 @@ part 9: data binding in angular?
 
     9.2 two way data binding?
         --> two way data binding, binds data from component class to view template and view template to component class. this is a combination of property and event binding.
+
+part 10: what are directives?
+    --> directives are simply an instructions to DOM. directives are classified into mainly two types:
+        10.1 structural directives:
+            --> a structural directives can change the view of a webpage by adding or removing DOM element from webpage for ex: ngIf, ngFor, ngSwitch.
+
+            a. ngFor directive - this directive used to repeat a portion of html template once per each item from an iterable list.
+
+        10.2 attribute directives:
+            --> a attribute directive can change the look and behavior  of DOM element for ex: ngStyle, ngClass

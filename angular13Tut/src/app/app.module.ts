@@ -8,11 +8,12 @@ import { HeaderComponent } from './header/header.component';
 import { NotificationComponent } from './notification/notification.component';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
+import { BindingComponent } from './binding/binding.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
-    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent
+    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Data Binding</h1>
+
+    <p>string interpolation:</p>
+    <h5>site name: {{ siteName }}</h5>
+
+    <p>property binding:</p>
+    <div class="alert alert-primary" [hidden]="isDisplay">
+        <p>This is a example of property binding</p>
+    </div>
+
+    <p>event binding:</p>
+    <span>Search :</span>
+    <input type="text" (input)="getSearchData($event)">
+    <div>{{searchData}}</div>
+
+    <p>Two way data binding:</p>
+    <span>email:</span>
+    <input type="email" [(ngModel)]=" email_id">
+    <h4>Email :{{ email_id }}</h4>
+</div>
