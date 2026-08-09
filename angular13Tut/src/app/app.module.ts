@@ -10,11 +10,18 @@ import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { BindingComponent } from './binding/binding.component';
 import { DirectiveComponentComponent } from './directive-component/directive-component.component';
+import { Header2Component } from './header2/header2.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { SearchProductComponent } from './search-product/search-product.component';
+import { FilterproductComponent } from './filterproduct/filterproduct.component';
+import { CourseComponent } from './course/course.component';
+import { CourseSearchComponent } from './course-search/course-search.component';
+import { CourseFilterComponent } from './course-filter/course-filter.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
-    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent
+    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent, Header2Component, ProductListComponent, SearchProductComponent, FilterproductComponent, CourseComponent, CourseSearchComponent, CourseFilterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,31 @@
+<app-course-search (searchTextChanged)="SearchData($event)"></app-course-search>
+<app-course-filter [all]="getTotalCourses()" [free]="getFreeCourses()" [premium]="getPremiumCourses()"
+  (filterCourseRadioChanged)="selectedData($event)"></app-course-filter>
+
+
+<ng-container *ngFor="let c of courses">
+
+  <div class=" d-inline-flex m-auto"
+    *ngIf="(searchValue === '' || c.name.toLowerCase().includes(searchValue)) && (onChange === 'All' || onChange === c.type)">
+    <div class="course-card m-5">
+      <div>
+        <img [src]="c.image" alt="" style="height: 140px; width: 220px;">
+      </div>
+      <div class="course-name text-center">
+        <h4>{{ c.name }}</h4>
+      </div>
+      <div class="course-description">
+        <p>{{ c.description }}</p>
+      </div>
+      <div class="details d-flex m-2">
+        <div class="course-price fw-bold w-50"> {{ c.price }}</div>
+        <div class="course-color fw-bold w-50" [ngStyle]="{color: c.type === 'Free' ? 'green' : 'red'}"> {{ c.type }}
+        </div>
+      </div>
+      <div class="course-button d-flex">
+        <button class="btn btn-danger w-50 me-2">Buy Now</button>
+        <button class="btn btn-info w-50">Show Details</button>
+      </div>
+    </div>
+  </div>
+</ng-container>

@@ -193,3 +193,14 @@ part 10: what are directives?
             a. ngStyle directive - this directive change the look and behavior of dom element
 
             b. ngClass directive - this directive change the look and behavior of dom element and it add class dynamically to the webpage element
+
+part 11: Inter component communication.
+    --> we can pass data from component class to view template and vice versa using property binding, string interpolation and event binding.
+    --> we can also pass data from parent to child component and vice versa  for that using @input(), @output(), and @viewChild() decorator.
+        a. @input() - pass data from parent to child.
+        b. @output() - pass data from child to parent.
+
+part 12 : search functionality using @output() decorator.
+
+part 13: template reference variable.
+    --> template reference variable is a reference to any DOM element, component or directive in the template.

@@ -1,0 +1,12 @@
+.course-card {
+  width: 230px;
+  height: 320px;
+  background-color: #f8f9f9;
+  margin: 10px 10px;
+}
+
+.course-available {
+  margin: 10px 0px;
+  padding: 5px 10px;
+  font-size: 20px;
+}

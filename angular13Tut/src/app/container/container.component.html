@@ -1,11 +1,21 @@
 <h1>Welcome to Angular 13 Tutorial</h1>
 <div class="wrapper">
-    <app-navbar></app-navbar>
-    <div app-header></div>
-    <div class="app-notification"></div>
-    <app-search></app-search>
+  <app-navbar></app-navbar>
+  <div app-header></div>
+  <div class="app-notification"></div>
+  <app-search></app-search>
 </div>
 
 <app-binding></app-binding>
 <hr>
 <app-directive-component></app-directive-component>
+
+<div class="mt-5 text-center">
+  <h1>inter component communication</h1>
+  <app-header2></app-header2>
+  <app-product-list></app-product-list>
+
+  <h1 class="mt-3">inter component communication example 2</h1>
+  <app-header2></app-header2>
+  <app-course></app-course>
+</div>
