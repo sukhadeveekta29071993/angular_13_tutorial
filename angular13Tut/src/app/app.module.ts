@@ -17,11 +17,14 @@ import { FilterproductComponent } from './filterproduct/filterproduct.component'
 import { CourseComponent } from './course/course.component';
 import { CourseSearchComponent } from './course-search/course-search.component';
 import { CourseFilterComponent } from './course-filter/course-filter.component';
+import { TemplateVariableComponent } from './template-variable/template-variable.component';
+import { CustomerListComponent } from './customer-list/customer-list.component';
+import { ViewchildComponent } from './viewchild/viewchild.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
-    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent, Header2Component, ProductListComponent, SearchProductComponent, FilterproductComponent, CourseComponent, CourseSearchComponent, CourseFilterComponent
+    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent, Header2Component, ProductListComponent, SearchProductComponent, FilterproductComponent, CourseComponent, CourseSearchComponent, CourseFilterComponent, TemplateVariableComponent, CustomerListComponent, ViewchildComponent
   ],
   imports: [
     BrowserModule,

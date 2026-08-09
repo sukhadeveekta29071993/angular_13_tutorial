@@ -1,0 +1,10 @@
+<div class="mt-2">
+  <input type="email" #myVariable (keyup)="0" />
+  <button (click)="submitData(myVariable)">Submit</button>
+  <h2>{{ myVariable.value }}</h2>
+
+  <h1 class="mt-4">template reference variable : example 2</h1>
+  <app-customer-list #customer></app-customer-list>
+
+  <h2>You have selected : {{customer.selectedCustomer?.customerName }}</h2>
+</div>

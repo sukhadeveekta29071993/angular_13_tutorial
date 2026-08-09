@@ -204,3 +204,5 @@ part 12 : search functionality using @output() decorator.
 
 part 13: template reference variable.
     --> template reference variable is a reference to any DOM element, component or directive in the template.
+
+part 14: @viewChild decorator.
