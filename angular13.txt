@@ -213,3 +213,34 @@ part 15: view Encapsulation
 part 16: ng-content
     --> the ng-content is used when we want to insert the content dynamically inside the component that helps to increase component reusability.
     --> using ng-content we can pass content inside the component selector and when angular parses that content that appears at the place of ng-content.
+
+part 17 : Life cycle hooks in Angular.
+    --> the angular life cycle hooks are the methods that angular invokes an the directives and components as it creates, changes and destroys them. there are  8 phases of hooks :
+
+    1. constructor 
+        --> by default constructor is called at once but if we change the @input methods is not updated.
+
+    2. ngOnChanges()
+        --> ngOnChanges() runs when an @Input() value changes. If the component has no input binding, it may not run.
+      
+    3. ngOnInit()
+        --> ngOnInit() is called once after Angular initializes the component and its input properties. It is commonly used for initialization logic and API calls.
+
+
+   4. ngDoCheck()
+        --> ngDoCheck() allows us to implement custom change detection logic. It can run frequently, so we should use it carefully.
+
+    5. ngAfterContentInit()
+        --> ngAfterContentInit() runs once after Angular initializes content projected into the component using ng-content.
+
+    6. ngAfterContentChecked()
+        --> ngAfterContentChecked() runs after Angular checks the content projected into the component.
+
+    7. ngAfterViewInit()
+        --> ngAfterViewInit() runs once after Angular initializes the component's view and child views. It is commonly used with @ViewChild().
+
+    8. ngAfterViewChecked()
+        --> ngAfterViewChecked() runs after Angular checks the component's view and child views.
+
+    9. ngOnDestroy()
+        --> ngOnDestroy() is called just before Angular destroys a component. It is commonly used for cleanup activities such as unsubscribing from Observables and clearing timers.

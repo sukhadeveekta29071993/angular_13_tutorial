@@ -23,11 +23,13 @@ import { ViewchildComponent } from './viewchild/viewchild.component';
 import { Comp1Component } from './comp1/comp1.component';
 import { Comp2Component } from './comp2/comp2.component';
 import { NewProductComponent } from './new-product/new-product.component';
+import { LifeCycleComponent } from './life-cycle/life-cycle.component';
+import { Demo2Component } from './demo2/demo2.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
-    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent, Header2Component, ProductListComponent, SearchProductComponent, FilterproductComponent, CourseComponent, CourseSearchComponent, CourseFilterComponent, TemplateVariableComponent, CustomerListComponent, ViewchildComponent, Comp1Component, Comp2Component, NewProductComponent
+    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent, Header2Component, ProductListComponent, SearchProductComponent, FilterproductComponent, CourseComponent, CourseSearchComponent, CourseFilterComponent, TemplateVariableComponent, CustomerListComponent, ViewchildComponent, Comp1Component, Comp2Component, NewProductComponent, LifeCycleComponent, Demo2Component
   ],
   imports: [
     BrowserModule,
