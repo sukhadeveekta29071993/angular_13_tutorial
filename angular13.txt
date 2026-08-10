@@ -210,3 +210,6 @@ part 14: @viewChild decorator.
 part 15: view Encapsulation
     --> view Encapsulation is a concept or behavior in angular, where component css styles are encapsulated into the components view and do not effect the rest of application.
 
+part 16: ng-content
+    --> the ng-content is used when we want to insert the content dynamically inside the component that helps to increase component reusability.
+    --> using ng-content we can pass content inside the component selector and when angular parses that content that appears at the place of ng-content.

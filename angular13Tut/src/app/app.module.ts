@@ -22,11 +22,12 @@ import { CustomerListComponent } from './customer-list/customer-list.component';
 import { ViewchildComponent } from './viewchild/viewchild.component';
 import { Comp1Component } from './comp1/comp1.component';
 import { Comp2Component } from './comp2/comp2.component';
+import { NewProductComponent } from './new-product/new-product.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
-    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent, Header2Component, ProductListComponent, SearchProductComponent, FilterproductComponent, CourseComponent, CourseSearchComponent, CourseFilterComponent, TemplateVariableComponent, CustomerListComponent, ViewchildComponent, Comp1Component, Comp2Component
+    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent, Header2Component, ProductListComponent, SearchProductComponent, FilterproductComponent, CourseComponent, CourseSearchComponent, CourseFilterComponent, TemplateVariableComponent, CustomerListComponent, ViewchildComponent, Comp1Component, Comp2Component, NewProductComponent
   ],
   imports: [
     BrowserModule,
