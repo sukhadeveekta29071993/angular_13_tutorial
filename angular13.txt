@@ -206,3 +206,7 @@ part 13: template reference variable.
     --> template reference variable is a reference to any DOM element, component or directive in the template.
 
 part 14: @viewChild decorator.
+
+part 15: view Encapsulation
+    --> view Encapsulation is a concept or behavior in angular, where component css styles are encapsulated into the components view and do not effect the rest of application.
+

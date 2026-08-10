@@ -20,11 +20,13 @@ import { CourseFilterComponent } from './course-filter/course-filter.component';
 import { TemplateVariableComponent } from './template-variable/template-variable.component';
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { ViewchildComponent } from './viewchild/viewchild.component';
+import { Comp1Component } from './comp1/comp1.component';
+import { Comp2Component } from './comp2/comp2.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
-    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent, Header2Component, ProductListComponent, SearchProductComponent, FilterproductComponent, CourseComponent, CourseSearchComponent, CourseFilterComponent, TemplateVariableComponent, CustomerListComponent, ViewchildComponent
+    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent, Header2Component, ProductListComponent, SearchProductComponent, FilterproductComponent, CourseComponent, CourseSearchComponent, CourseFilterComponent, TemplateVariableComponent, CustomerListComponent, ViewchildComponent, Comp1Component, Comp2Component
   ],
   imports: [
     BrowserModule,

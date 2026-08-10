@@ -1,3 +1,26 @@
 .wrapper {
-    background-color: rgb(249, 211, 198);
+  background-color: rgb(249, 211, 198);
+}
+
+.app-compo {
+  text-align: center;
+  border: 2px solid #bbb;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.component-container {
+  display: flex;
+  text-align: center;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  background-color: coral;
 }
