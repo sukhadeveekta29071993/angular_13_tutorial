@@ -24,3 +24,10 @@ button {
   text-align: center;
   background-color: coral;
 }
+
+.highlight {
+  background: #bbb;
+  border: 3px solid blue;
+  border-radius: 10px;
+  box-shadow: 2px 2px;
+}

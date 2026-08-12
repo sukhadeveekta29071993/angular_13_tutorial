@@ -38,3 +38,40 @@
     <h4 #heading4>this is content child value</h4>
   </app-demo-child>
 </div>
+
+<h1 class="mt-4">custom directive :</h1>
+
+<div class="container text-center p-2 m-3">
+  <h5 setBackgroundAttribute>custom attribute directive</h5>
+
+  <h5 appHighlightRender>renderer directive</h5>
+
+  <div appHoverHostListnerDirective>
+    <h5>HostListener decorator </h5>
+  </div>
+
+  <div appBetterHighlightHostBindingDirective>
+    <h5>HostBinding decorator </h5>
+  </div>
+
+  <div [appAppClass]="{wrapper: false, 'change-font': true}">
+    <p> custom appClass directive </p>
+  </div>
+
+  <h5 class="mt-2"> conditional directive in angular </h5>
+
+  <app-video-card></app-video-card>
+
+  <div>
+    <h5 appStyle [setStyle]="{backgroundColor: 'yellow', color: 'red'}"> custom appStyle directive </h5>
+  </div>
+
+  <div class="container" [ngSwitch]="occupation">
+    <p *ngSwitchCase="'teacher'">this paragraph is displayed teacher occupation</p>
+    <p *ngSwitchCase="'designer'">this paragraph is displayed designer occupation</p>
+    <p *ngSwitchCase="'developer'">this paragraph is displayed developer occupation</p>
+    <p *ngSwitchDefault>this paragraph is displayed no occupation</p>
+  </div>
+
+
+</div>

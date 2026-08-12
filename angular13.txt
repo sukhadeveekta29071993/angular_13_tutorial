@@ -251,3 +251,27 @@ part 18: contentChild decorator.
 
 part 19: more directive
     1. custom attribute directive.
+        --> the native element property contains the reference to the underlying DOM object which gives us direct access to the dom , bypassing the angular. this is not advisable for following reasons:
+         a. angular keeps the component and the view in sync using templates, data binding and change detection etc. all of them are bypassed when we update the dom directly.
+         b. dom manipulation works only in browser. you will not able to use the app in platform like a web worker, in a server or in a desktop, or in a mobile app etc. where there is no browser.
+         c. the Dom Apis is not sanitize the data. hence it is possible to inject a scripts, thereby opening our app an easy target for the XSS injection attack.
+
+    2. renderer2 directive
+        --> renderer allows us to manipulates the Dom without accessing the element directly, it provide layer of abstraction between dom element and component code.
+
+    3. @HostListener decorator 
+        --> listens to the dom event on the host element and it reacts to that event by executing an event handler method.
+
+    4. @HostBinding decorator
+        --> it binds host element property to a variable in a directive and component
+
+    5. binding directive property
+
+    6. custom appClass directive
+
+    7. conditional directive in angular.
+
+    8. custom appStyle directive
+
+    9. ngSwitch directive
+

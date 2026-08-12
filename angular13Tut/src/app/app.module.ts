@@ -26,17 +26,52 @@ import { NewProductComponent } from './new-product/new-product.component';
 import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 import { Demo2Component } from './demo2/demo2.component';
 import { DemoChildComponent } from './demo-child/demo-child.component';
+import { SetBackgroundDirective } from './custom-directive/setbackground.directive';
+import { HighlightRenderDirective } from './custom-directive/hilight-render.directive';
+import { HoverHostListnerDirectiveDirective } from './custom-directive/hover-host-listner-directive.directive';
+import { BetterHighlightHostBindingDirectiveDirective } from './custom-directive/better-hilight-host-binding-directive.directive';
+import { AppClassDirective } from './custom-directive/app-class.directive';
+import { VideoCardComponent } from './video-card/video-card.component';
+import { HiLightDirectiveDirective } from './custom-directive/hi-light-directive.directive';
+import { StyleDirective } from './custom-directive/style.directive';
 
 @NgModule({
   declarations: [
-    AppComponent, 
-    ContainerComponent, NavbarComponent, HeaderComponent, NotificationComponent, SearchComponent, BindingComponent, DirectiveComponentComponent, Header2Component, ProductListComponent, SearchProductComponent, FilterproductComponent, CourseComponent, CourseSearchComponent, CourseFilterComponent, TemplateVariableComponent, CustomerListComponent, ViewchildComponent, Comp1Component, Comp2Component, NewProductComponent, LifeCycleComponent, Demo2Component, DemoChildComponent
+    AppComponent,
+    ContainerComponent,
+    NavbarComponent,
+    HeaderComponent,
+    NotificationComponent,
+    SearchComponent,
+    BindingComponent,
+    DirectiveComponentComponent,
+    Header2Component,
+    ProductListComponent,
+    SearchProductComponent,
+    FilterproductComponent,
+    CourseComponent,
+    CourseSearchComponent,
+    CourseFilterComponent,
+    TemplateVariableComponent,
+    CustomerListComponent,
+    ViewchildComponent,
+    Comp1Component,
+    Comp2Component,
+    NewProductComponent,
+    LifeCycleComponent,
+    Demo2Component,
+    DemoChildComponent,
+    SetBackgroundDirective,
+    HighlightRenderDirective,
+    HoverHostListnerDirectiveDirective,
+    BetterHighlightHostBindingDirectiveDirective,
+    AppClassDirective,
+    VideoCardComponent,
+    HiLightDirectiveDirective,
+    StyleDirective,
   ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
