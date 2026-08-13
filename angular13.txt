@@ -275,3 +275,24 @@ part 19: more directive
 
     9. ngSwitch directive
 
+
+part 20: services in angular.
+    --> A service in angular is a reusable typescript class that can be used in multiple component across your angular application.
+
+    1. advantages of service:
+        a. services are easier to debug and test.
+        b. services provide reusability of code.
+        c. with services, we can communicate across different component.
+
+    2. create services and use it
+
+    3. dependency injection with service.
+        --> dependency  injection is a technique in which a class receives its dependencies from external sources rather that creating itself.
+
+        a. hierarchical dependency injection.
+
+    4. creating data service.
+
+    5. inject one service to another service.
+
+    6. component interaction with service

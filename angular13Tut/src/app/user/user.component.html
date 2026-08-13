@@ -1,0 +1,18 @@
+<div class="container d-flex mt-4 text-center">
+  <app-add-user></app-add-user>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of user">
+        <td>{{u.name}}</td>
+        <td>{{u.status}}</td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>

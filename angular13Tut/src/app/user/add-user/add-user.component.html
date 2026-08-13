@@ -1,0 +1,12 @@
+<div class="m-2 p-2 ">
+  <div class="mb-3">
+    <input type="text" class="form-control" placeholder="username" [(ngModel)]="username" />
+  </div>
+  <div class="mb-3">
+    <select class="form-select" [(ngModel)]="status">
+      <option value="active">Active</option>
+      <option value="inactive">Inactive</option>
+    </select>
+  </div>
+  <button class="btn btn-success" (click)="addUser()">Create User</button>
+</div>

@@ -34,6 +34,13 @@ import { AppClassDirective } from './custom-directive/app-class.directive';
 import { VideoCardComponent } from './video-card/video-card.component';
 import { HiLightDirectiveDirective } from './custom-directive/hi-light-directive.directive';
 import { StyleDirective } from './custom-directive/style.directive';
+import { JavascriptComponent } from './javascript/javascript.component';
+import { AngularComponent } from './angular/angular.component';
+import { EnrollService } from './core/services/enroll.service';
+import { UserComponent } from './user/user.component';
+import { UserService } from './core/services/user.service';
+import { AddUserComponent } from './user/add-user/add-user.component';
+import { LoggerService } from './core/services/loggeer.service';
 
 @NgModule({
   declarations: [
@@ -69,9 +76,13 @@ import { StyleDirective } from './custom-directive/style.directive';
     VideoCardComponent,
     HiLightDirectiveDirective,
     StyleDirective,
+    JavascriptComponent,
+    AngularComponent,
+    UserComponent,
+    AddUserComponent,
   ],
   imports: [BrowserModule, FormsModule],
-  providers: [],
+  providers: [EnrollService, UserService, LoggerService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
