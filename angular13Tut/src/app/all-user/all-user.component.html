@@ -1,0 +1,28 @@
+<div class="container d-flex  justify-content-between  gap-3">
+  <div class="w-50">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Sr No</th>
+          <th>Name</th>
+          <th>City</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of user">
+          <td>{{ user.id}}</td>
+          <td>{{ user.name}}</td>
+          <td>{{ user.city}}</td>
+          <td>
+            <button class="btn btn-secondary" (click)="onShowDetails(user)">Show </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="w-50">
+    <app-user-details></app-user-details>
+  </div>
+</div>

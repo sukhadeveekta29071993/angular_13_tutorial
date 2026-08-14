@@ -41,6 +41,12 @@ import { UserComponent } from './user/user.component';
 import { UserService } from './core/services/user.service';
 import { AddUserComponent } from './user/add-user/add-user.component';
 import { LoggerService } from './core/services/loggeer.service';
+import { AllUserComponent } from './all-user/all-user.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
+import { ObservableComponent } from './observable/observable.component';
+import { Data1Component } from './data1/data1.component';
+import { Data2Component } from './data2/data2.component';
+import { DataService } from './core/services/data.service';
 
 @NgModule({
   declarations: [
@@ -80,9 +86,14 @@ import { LoggerService } from './core/services/loggeer.service';
     AngularComponent,
     UserComponent,
     AddUserComponent,
+    AllUserComponent,
+    UserDetailsComponent,
+    ObservableComponent,
+    Data1Component,
+    Data2Component,
   ],
   imports: [BrowserModule, FormsModule],
-  providers: [EnrollService, UserService, LoggerService],
+  providers: [EnrollService, UserService, LoggerService, DataService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

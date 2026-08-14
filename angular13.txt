@@ -295,4 +295,29 @@ part 20: services in angular.
 
     5. inject one service to another service.
 
-    6. component interaction with service
+    6. component interaction with service.
+
+part 21: 
+    1. what is observable?
+        --> we use observable to perform asynchronous operation and handle asynchronous data.
+        --> an observable is a function that converts ordinary stream of data into an observable stream of data. you can think of  observable as a wrapper around the ordinary stream of data.
+        --> the Rxjs is a javascript library , that allows us to work with asynchronous data stream.
+
+    2. create an observable.
+
+    3. error and completion in observable.
+
+    4. different way of creating observable.
+        a. observable.create()
+        b. constructor method
+        c. of method - multiple array 
+        d. from method - single array
+
+    5. Rxjs operators
+        --> operators in Rxjs are functions that takes an observable as input and transform it into a new observable and return it. we use operators to manipulate the observable data stream.
+    
+    6. subject in rxjs.
+        --> subject is a special type of observable that allows value to be multicasted too many observer.
+
+    7. unsubscribing of observable.
+

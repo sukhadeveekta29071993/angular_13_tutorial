@@ -1,0 +1,12 @@
+<div class="card d-flex flex-row justify-content-between gap-3" style="width: 25rem;" *ngFor="let u of user">
+  <div class="d-flex justify-content-center align-items-center">
+
+    <img [src]="u.image" class="card-img-top " alt="User Image" style="width: 100px; height: 100px;">
+  </div>
+  <div class="card-body  justify-content-center align-items-center">
+    <h5 class="card-title">{{ u.name }}</h5>
+    <p class="card-text">Age: {{ u.age }}</p>
+    <p class="card-text">City: {{ u.city }}</p>
+    <p class="card-text">Job: {{ u.job }}</p>
+  </div>
+</div>
