@@ -321,3 +321,33 @@ part 21:
 
     7. unsubscribing of observable.
 
+
+part 22:
+    1. what is routing in angular?
+        --> routing allows us to navigate from one part of our application to another part or from one view to another view.
+
+    2. page not found route
+        --> In that case, angular will throw an error and that error can be seen in developer console. To avoid this error, we can add a wild card route which matches every route. So, when a route is not found for a given path, the wild card route will be used and its view will be rendered in the page.
+
+    3. Configuring navigation links for Route.
+
+    4. styling active link with routerLinkActive
+
+    5. absolute and relative route path.
+
+    6. navigate between route programmatically.
+
+    7. passing parameter to route.
+
+    8. Using Observable to Retrieve Route Parameter.
+
+    9. passing query parameter to route and retrive it
+        --> Query parameters are the optional parameters which we can pass to a route. Unlike route parameters which are required, query parameters are optional. Even if you don't pass a value for query parameter, angular will not stop navigating to that route.
+
+    10. passing Fragments to routes.
+        --> A Fragments in url is a link which jumps to a section or a content in Html page which contains the Id mentioned in a Fragments. A Fragments comes after # sign.
+
+    11. child route creating.
+
+    12. create route module.
+

@@ -1,0 +1,22 @@
+<div class="container mt-5">
+
+  <div class="card m-auto text-center">
+    <img src="{{course.image}}" class="card-img-top" alt="course detail image" width="250" height="350">
+    <div class="card-header">
+      <h3 class="card-title" *ngIf="!editMode">{{ course.name}}</h3>
+      <div class="text-center" *ngIf="editMode">
+        <input type="text" [(ngModel)]="course.name">
+      </div>
+    </div>
+    <div class="card-body text-center d-flex justify-content-evenly">
+      <h5><b>price:</b> {{course.price}}</h5>
+      <h5><b>Type:</b> {{course.type}}</h5>
+    </div>
+    <div class="card-footer">
+      <p>{{course.description}}</p>
+      <!-- <a [routerLink]="['/course', 1]">go to first course</a> -->
+      <button class="btn btn-secondary" (click)="appendQuery()">Edit</button>
+      <button class="btn btn-secondary" (click)="editMode = !editMode">Update</button>
+    </div>
+  </div>
+</div>

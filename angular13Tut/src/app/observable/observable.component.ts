@@ -100,22 +100,22 @@ export class ObservableComponent implements OnInit {
 
     //observable.create method
     this.myObservableCreate.subscribe((val: any) => {
-      alert(val);
+      // alert(val);
     });
 
     //constructor method
     this.myObservableConstructor.subscribe((val) => {
-      alert(val);
+      // alert(val);
     });
 
     //of method
     this.myObservableOfMethod.subscribe((val) => {
-      alert(val);
+      // alert(val);
     });
 
     //from method
     this.myObservableFromMethod.subscribe((val) => {
-      alert(val);
+      // alert(val);
     });
 
     this.filterData.subscribe((data) => {
